@@ -1,0 +1,15 @@
+:root {
+  --navy-blue: #2e2f42;
+  --ocean: #404bbf;
+  --color-nav: #434455;
+  --color-hover-nav: #4d5ae5;
+  --color-hover-white: #ffffff;
+  --color-background-button: #f4f4fd;
+  --border-color: #e7e9fc;
+  --border-button-color: var(--border-color);
+  --color-white: #ffffff;
+  --background: #4d5ae5;
+  --border-color-iris: #4d5ae5;
+  --color-icon: #4d5ae5;
+  --transition-dur-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
