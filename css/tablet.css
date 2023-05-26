@@ -127,3 +127,7 @@ line-height: 1.16;
     display: none;
   } */
 }
+/* =======section 1 */
+.title_section_one {
+  max-width: 496px;
+}

@@ -55,14 +55,7 @@
 
 
 /* main  */
-.section_one {
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--color-hover-white);
-  background-color: var(--navy-blue);
-}
+
 .title_section_one {
   font-size: 56px;
   line-height: 1.07;
@@ -234,11 +227,7 @@
 
 
 
-/* section_one*/
-.section_one {
-  padding-top: 188px;
-  padding-bottom: 188px;
-}
+
 .title_section_one {
   max-width: 496px;
 }
@@ -405,24 +394,7 @@
 
 /* svg stile */
 
-.section_one {
-  background-color: var(--headers-color);
-  text-align: center;
-  max-width: 1440px;
 
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/people-office.jpg);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: cover;
-
-  margin-left: auto;
-  margin-right: auto;
-  padding: 188px 0;
-}
 /* information  section_two */
 .title-list-inform {
   display: flex;
