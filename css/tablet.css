@@ -10,11 +10,11 @@
  
 }
 
-.list {
+ .list {
   display: flex;
   
   gap: 40px;
-}
+ }
 .socials {
  display: flex;
   gap: 40px;
@@ -126,7 +126,7 @@ line-height: 1.16;
    /* .contacts {
     display: none;
   } */
-}
+  
 /* =======section 1 */
 .section_one {
   height: 100%;
@@ -144,6 +144,24 @@ line-height: 1.16;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 32px;
+}
+/* =====================================================section2 */
+.title-list-inform {
+  display: none;
+}
+.list-information {
+display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: left;
+    gap: 72px 24px;
+}
+.list-information.list-item {
+flex-basis: calc((100% - 24px) / 2);
+}
+ 
+
+
 }
 
 

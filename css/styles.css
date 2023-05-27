@@ -15,11 +15,7 @@
 
 
 
-.socials-links {
-  width: 40px;
-  height: 40px;
-  list-style: none;
-}
+
 
 
 /* ********************************************** */
@@ -30,9 +26,7 @@
 
 /* header */
 
-.socials {
-  list-style: none;
-}
+
 
 .button-labels {
   color: var(--color-hover-nav);
@@ -58,28 +52,7 @@
 
 
 
-.button_text {
-  background-color: var(--color-hover-nav);
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: var(--color-hover-white);
-  cursor: pointer;
-  margin-right: auto;
-  margin-left: auto;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.list-information {
-  list-style: none;
-}
-.button_text:hover {
-  background-color: var(--ocean);
-}
-.button_text:focus {
-  background-color: var(--ocean);
-}
+
 .title_section_two {
   font-weight: 500;
   font-size: 20px;
@@ -105,14 +78,7 @@
 .section_four {
   background-color: var(--color-background-button);
 }
-.hide_title {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--navy-blue);
-}
+
 .title {
   background-color: var(--color-hover-white);
 }
@@ -220,40 +186,12 @@
 
 
 
-.button_text {
-  display: block;
-  min-width: 169px;
-  height: 56px;
-  border: none;
-  border-radius: 4px;
-}
+
 
 /* information ,section_two2*/
 
-.section_two {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-.list-information {
-  display: flex;
-  /* gap: 24px; */
-}
 
 
-.list-information li {
-  margin-right: 24px;
-}
-.list-information li:last-child {
-  margin-right: 0;
-}
-
-.list-item {
-  width: calc((100% - 72px) / 4);
-}
-
-.title_section_two {
-  margin-bottom: 8px;
-}
 
 /*  products sction_three3 */
 
@@ -279,9 +217,7 @@
   padding-bottom: 120px;
 }
 
-.hide_title {
-  margin-bottom: 72px;
-}
+
 .list-time {
   display: flex;
   gap: 24px;
@@ -384,15 +320,7 @@
 
 
 /* information  section_two */
-.title-list-inform {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 112px;
-  background-color: #f4f4fd;
-  border-radius: 4px;
-  margin-bottom: 8px;
-}
+
 
 /* linki social */
 .item {
