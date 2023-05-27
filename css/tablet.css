@@ -128,6 +128,40 @@ line-height: 1.16;
   } */
 }
 /* =======section 1 */
+.section_one {
+  height: 100%;
+}
 .title_section_one {
   max-width: 496px;
+}
+.title_section_one {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-hover-white);
+
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 32px;
+}
+
+
+@media screen and (min-width: 428px) {
+ .section_one {  
+   background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/tablet1x.jpg);
+
+}
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .section_one {
+    background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(../images/Dark-Tablet@2x.jpg);
+  }
 }

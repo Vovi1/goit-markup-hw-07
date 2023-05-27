@@ -56,17 +56,7 @@
 
 /* main  */
 
-.title_section_one {
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--color-hover-white);
 
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 48px;
-}
 
 .button_text {
   background-color: var(--color-hover-nav);
@@ -228,9 +218,7 @@
 
 
 
-.title_section_one {
-  max-width: 496px;
-}
+
 
 .button_text {
   display: block;
