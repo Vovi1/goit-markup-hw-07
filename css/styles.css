@@ -57,22 +57,8 @@
 
 
 
-.title {
-  background-color: var(--color-hover-white);
-}
-.title_section_four {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--navy-blue);
-}
 
-.description_section_four {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
+
 .list-coppy {
   list-style: none;
 }
@@ -178,13 +164,7 @@
 
 
 
-.title_section_four {
-  text-align: center;
-  margin-bottom: 8px;
-}
-.description_section_four {
-  text-align: center;
-}
+
 
 /* sction-five  */
 

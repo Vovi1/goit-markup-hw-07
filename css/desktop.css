@@ -3,6 +3,16 @@
     max-width: 1158px;
 } */
 @media screen and (min-width: 1158px){
+    .container {
+  width: 100%;  
+  max-width: 1158px;
+ margin-left: auto;
+ margin-right: auto;
+ padding-left: 16px;
+ padding-right: 16px;
+      
+   
+}
 .logo-header {
   margin-right: 76px;
 }
@@ -165,13 +175,21 @@ font-weight: 400;
   padding-bottom: 120px;
 }
 .list-time {
- 
+    display: flex;
+ flex-wrap: nowrap;
+    
+   
   gap: 24px;
 }
 .item {
           flex-basis: calc((100% - 3 * 24px) / 4);
 
 }
+.tagline {
+  padding: 32px 16px;
+  
+}
+
 
 }
 
