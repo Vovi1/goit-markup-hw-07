@@ -159,6 +159,19 @@ font-weight: 400;
 .list-imge {
   list-style: none;
 }
+/*  personal  section_four*/
+.section_four {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.list-time {
+ 
+  gap: 24px;
+}
+.item {
+          flex-basis: calc((100% - 3 * 24px) / 4);
+
+}
 
 }
 
