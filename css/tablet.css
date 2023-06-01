@@ -253,6 +253,16 @@ flex-basis: calc((100% - 96px) / 2);
 .footer-block {
   width: 495px;
 }
+/* modal================================== */
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+width: 90%;
+height: 90%;
+}
 }
 
 @media screen and (min-width: 428px) {
