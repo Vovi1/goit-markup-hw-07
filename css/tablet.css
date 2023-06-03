@@ -6,8 +6,8 @@
    /* max-width: 1157px; */ 
  margin-left: auto;
  margin-right: auto;
- padding-left: 16px;
- padding-right: 16px;
+ padding-left: 15px;
+ padding-right: 15px;
       
    
 }
@@ -228,6 +228,7 @@ flex-basis: calc((100% - 96px) / 2);
   flex-direction: inherit;
   justify-content: center;
   align-items: normal;
+  width: 582px;
 }
 .first-logo {
     margin-right: 24px;
@@ -265,7 +266,8 @@ height: 90%;
 }
 }
 
-@media screen and (min-width: 428px) {
+
+@media screen and (min-width: 768px) {
  .section_one {  
    background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -273,7 +275,6 @@ height: 90%;
     ),
     url(../images/tablet1x.jpg);
 
-}
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -283,3 +284,6 @@ height: 90%;
     background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(../images/Dark-Tablet@2x.jpg);
   }
 }
+}
+
+
